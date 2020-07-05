@@ -1,0 +1,35 @@
+
+
+#==============#
+# Camera Model #
+#==============#
+
+# intrinsic parameters after stereo-rectification are written
+
+Camera.name: "Sumsung S7_FHD"
+Camera.setup: "monocular"
+Camera.model: "perspective"
+
+Camera.fx: 2035.6589712311975
+Camera.fy: 2034.2730639809822
+Camera.cx: 981.720216122387
+Camera.cy: 496.8917889245158
+
+# there is no distortion after stereo rectification
+
+Camera.k1: 0.26415614226658446
+Camera.k2: -4.944120800763496
+Camera.p1: -0.007202377689584779
+Camera.p2: -0.0006903177547775734
+Camera.k3: 26.451814764186473
+
+Camera.fps: 30.0
+Camera.cols: 1280
+Camera.rows: 720
+
+Camera.color_order: "RGB"
+
+
+
+
+
